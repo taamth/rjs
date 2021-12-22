@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Style the header */
+
+header {
+    /* height: 150px;
+    width: 800px; */
+    /* background-color: #bcbfe5c2; */
+    /* background-color: #2b2d4829; */
+    background-color: #261810;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    background-image: url(../img/vecteezy_long-banner-background_en0421_generated.jpg);
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    height: 300px;
+    background: #D9C2AD;
+    /* background: rgb(255 214 214); */
+    /* background: rgb(213 215 245 / 81%); */
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Style the list inside the menu */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    /* color: white; */
+}
+
+article {
+    padding: 20px;
+    float: left;
+    width: 70%;
+    height: 300px;
+    background-color: #A68C76;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(163 167 235 / 52%); */
+}
+
+a:link {
+    color: #000000
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    /* color: rgb(5, 4, 4); */
+    color: rgb(0, 0, 0);
+    background-color: #594838;
+    /* background-color: rgb(197 255 158); */
+    /* background-color: rgb(217 194 194 / 52%); */
+    /* background-color: rgb(129 134 206 / 50%); */
+    font-family: 'Nunito', sans-serif;
+}
